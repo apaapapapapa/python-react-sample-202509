@@ -1,0 +1,11 @@
+{
+  "name": "python-react-sample-202509",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/apaapapapapa/python-react-sample-202509.git",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
