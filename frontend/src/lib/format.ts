@@ -6,7 +6,7 @@ export const formatYen = (value: number) =>
     maximumFractionDigits: 0,
   }).format(value);
 
-// 口座番号のマスキング（必要に応じてオフ/オン）
+// 口座番号のマスキング
 export const maskAccountNumber = (raw: string, mask = true) => {
   if (!mask) return raw;
   const visible = raw.slice(-4);
