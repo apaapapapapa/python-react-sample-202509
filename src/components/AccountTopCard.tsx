@@ -1,4 +1,3 @@
-// src/components/AccountTopCard.tsx
 import React from "react";
 
 // 通貨フォーマッタ（JPY, 小数なし）

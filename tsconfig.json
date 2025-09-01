@@ -8,7 +8,8 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "types": ["vitest/globals"]
   },
-  "include": ["src"]
+  "include": ["src", "src/**/*.test.ts", "src/**/*.test.tsx"]
 }
